@@ -1,0 +1,33 @@
+p {
+    color: gray;
+}
+/* Classe (.)*/
+.subtitulo {
+    font-size: 50px;
+}
+/* ID (#) */
+#botao-enviar {
+    background-color: green;
+}
+
+.caixa {
+    width: 300px;
+    padding: 20px;   /* Espaço dentro */
+    border: 2px solid black;
+    margin: 15px;    /* Espaço fora */
+}
+
+body {
+    font-size: 14px;
+    background-color: #f5f5f5;
+}
+.container {
+    display: flex;
+    flex-direction: column; /* No celular, tudo fica em uma coluna só */
+    padding: 10px;
+}
+
+.card {
+    width: 100%; /* O card ocupa a largura toda da tela do celular */
+    margin-bottom: 15px;
+}
